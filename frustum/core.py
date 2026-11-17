@@ -23,16 +23,6 @@ class Sphere:
     radius: float
 
 
-def Camera:
-    """class"""
-    raise NotImplementedError("Camera 尚未实现")
-
-
-def Sphere:
-    """class"""
-    raise NotImplementedError("Sphere 尚未实现")
-
-
 def build_planes(cam):
     """算六个平面"""
     raise NotImplementedError("build_planes 尚未实现")
@@ -46,9 +36,4 @@ def cull(objects, planes):
 def select_lod(obj, cam, thresholds):
     """选 LOD"""
     raise NotImplementedError("select_lod 尚未实现")
-
-
-def load_scene(path):
-    """读入与落盘辅助"""
-    raise NotImplementedError("load_scene 尚未实现")
 
