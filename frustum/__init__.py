@@ -1,1 +1,1 @@
-"""视锥剔除与 LOD 选择"""
+from .core import *  # noqa: F401,F403
