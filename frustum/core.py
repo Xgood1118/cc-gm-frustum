@@ -37,3 +37,8 @@ def select_lod(obj, cam, thresholds):
     """选 LOD"""
     raise NotImplementedError("select_lod 尚未实现")
 
+
+def load_scene(path):
+    """读入与落盘辅助"""
+    raise NotImplementedError("load_scene 尚未实现")
+
