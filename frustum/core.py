@@ -23,6 +23,10 @@ class Sphere:
     radius: float
 
 
+
+
+
+
 def build_planes(cam):
     """算六个平面"""
     raise NotImplementedError("build_planes 尚未实现")
